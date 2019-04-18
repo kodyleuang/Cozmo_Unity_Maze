@@ -1,0 +1,14 @@
+Movement options
+1. Track within unity distance and translate into real world distance
+	- this distance is used to determine walls to stop movement of Cozmo when either
+	  the place where the walls are, or to stop movement inputs sent to Cozmo when
+	  walls are hit
+2. Take input when key is pressed to move cozmo forward, and stop Cozmo's movement when 
+   key is unpressed.
+
+
+Turning
+ - Beginning Phase
+	-Force player to Turn full 90 degrees to turn which corresponds to Cozmo
+ - Advance
+	-Use mouse to turn Cozmo and the player
