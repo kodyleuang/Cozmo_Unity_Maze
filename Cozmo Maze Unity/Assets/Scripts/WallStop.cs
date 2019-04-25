@@ -27,7 +27,7 @@ public class WallStop : MonoBehaviour
         if (other.tag == "Player")
         {
             mov.CheckMove(0);
-            movWO.CheckMove(0);
+            //movWO.CheckMove(0);
             //coz.CheckMove(0);
             net.Send("stop");
             Debug.Log("i sent stop");

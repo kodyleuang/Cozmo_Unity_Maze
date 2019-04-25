@@ -118,4 +118,12 @@ public class Movement : MonoBehaviour
         Debug.Log("you have waited " + waitTime + " no movement detected");
         noAction = true;
     }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Wall")
+        {
+            movement = 0;
+            Debug.Log("Wall hit i stop");
+        }
+    }
 }
