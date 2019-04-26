@@ -26,11 +26,11 @@ public class WallStop : MonoBehaviour
     {
         if (other.tag == "Player")
         {
-            mov.CheckMove(0);
+           // mov.CheckMove(0);
             //movWO.CheckMove(0);
             //coz.CheckMove(0);
-            net.Send("stop");
-            Debug.Log("i sent stop");
+           // net.Send("stop");
+            Debug.Log("WallStop says: i sent stop");
         }
     }
     

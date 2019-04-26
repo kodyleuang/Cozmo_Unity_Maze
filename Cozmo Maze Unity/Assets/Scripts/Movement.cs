@@ -51,7 +51,7 @@ public class Movement : MonoBehaviour
         {
             if (isMovable)
             {
-                StartCoroutine(MoveWait());
+                StartCoroutine(TurnWait());
                 movement = 0;
                 net.Send("stop");
                 StartCoroutine(Wait());
@@ -61,7 +61,7 @@ public class Movement : MonoBehaviour
         {
             if (isMovable)
             {
-                StartCoroutine(MoveWait());
+                StartCoroutine(TurnWait());
                 movement = 0;
                 net.Send("stop");
                 StartCoroutine(Wait());
@@ -73,10 +73,10 @@ public class Movement : MonoBehaviour
             if (isMovable)
             {
                 transform.Rotate(Vector3.up, -90);
-                net.Send("a;");
                 noAction = false;
                 Debug.Log("turned left");
-                StartCoroutine(MoveWait());
+                net.Send("a;");
+                StartCoroutine(TurnWait());
                 StartCoroutine(Wait());
             }
         }
@@ -85,37 +85,37 @@ public class Movement : MonoBehaviour
             if (isMovable)
             {
                 transform.Rotate(Vector3.up, 90);
-                net.Send("d;");
                 noAction = false;
                 Debug.Log("turned right");
-                StartCoroutine(MoveWait());
+                net.Send("d;");
+                StartCoroutine(TurnWait());
                 StartCoroutine(Wait());
             }
         }
         // Movement of player done Here, as well as collision
-        CheckMove(2);
+       // CheckMove(2);
         moveDirection = (transform.forward * movement);
         moveDirection = moveDirection.normalized * speed;
 
         controller.Move(moveDirection * Time.deltaTime);
     }
-    public void CheckMove(int moveNum)
+    /*public void CheckMove(int moveNum)
     {
         if (moveNum == 2) return;
         else movement = moveNum;
-    }
-    private IEnumerator MoveWait()
+    }*/
+    private IEnumerator TurnWait()
     {
         isMovable = false;
         yield return new WaitForSeconds(turnTime);
-        Debug.Log("you can move now");
+        Debug.Log("you can turn now");
         isMovable = true;
     }
     private IEnumerator Wait()
     {
         noAction = false;
         yield return new WaitForSeconds(waitTime);
-        Debug.Log("you have waited " + waitTime + " no movement detected");
+        Debug.Log("you have waited " + waitTime + " seconds no movement detected");
         noAction = true;
     }
     void OnTriggerEnter(Collider other)
@@ -123,7 +123,8 @@ public class Movement : MonoBehaviour
         if (other.tag == "Wall")
         {
             movement = 0;
-            Debug.Log("Wall hit i stop");
+            net.Send("stop");
+            Debug.Log("Movement script says: Wall hit i stop");
         }
     }
 }

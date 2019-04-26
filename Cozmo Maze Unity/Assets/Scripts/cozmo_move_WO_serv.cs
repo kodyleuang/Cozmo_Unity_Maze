@@ -34,10 +34,8 @@ public class cozmo_move_WO_serv : MonoBehaviour
         //make is moveable bool for W and S keys
         if ((Input.GetKeyDown("w") || Input.GetKeyDown("up")) && noAction)
         {
-            
             movement = 1;
             noAction = false;
-            
         }
         if ((Input.GetKeyDown("s") || Input.GetKeyDown("down")) && noAction)
         {
@@ -103,7 +101,7 @@ public class cozmo_move_WO_serv : MonoBehaviour
         if (other.tag == "Wall")
         {
             movement = 0;
-            Debug.Log("Wall hit i stop");
+            Debug.Log("Coz no serv says: Wall hit i stop");
         }
     }
 
