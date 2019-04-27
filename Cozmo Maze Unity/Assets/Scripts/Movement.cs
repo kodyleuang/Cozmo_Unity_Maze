@@ -124,7 +124,7 @@ public class Movement : MonoBehaviour
         {
             movement = 0;
             net.Send("stop");
-            Debug.Log("Movement script says: Wall hit i stop");
+            Debug.Log("Movement script says: Wall hit i stop to server");
         }
     }
 }

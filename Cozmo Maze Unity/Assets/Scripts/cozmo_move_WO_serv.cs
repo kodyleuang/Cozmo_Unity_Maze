@@ -34,11 +34,13 @@ public class cozmo_move_WO_serv : MonoBehaviour
         //make is moveable bool for W and S keys
         if ((Input.GetKeyDown("w") || Input.GetKeyDown("up")) && noAction)
         {
+            Debug.Log("I'm moving Forward");
             movement = 1;
             noAction = false;
         }
         if ((Input.GetKeyDown("s") || Input.GetKeyDown("down")) && noAction)
         {
+            Debug.Log("I'm moving Backwards");
             movement = -1;
             noAction = false;
         }
@@ -96,14 +98,7 @@ public class cozmo_move_WO_serv : MonoBehaviour
          else movement = moveNum;
      }*/
 
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Wall")
-        {
-            movement = 0;
-            Debug.Log("Coz no serv says: Wall hit i stop");
-        }
-    }
+    
 
     private IEnumerator MoveWait()
     {
@@ -118,5 +113,26 @@ public class cozmo_move_WO_serv : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
         Debug.Log("you have waited " + waitTime+ " seconds no movement detected");
         noAction = true;
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Wall")
+        {
+            movement = 0;
+            Debug.Log("Coz no serv says: Wall hit i stop");
+        }
+    }
+    private void OnTriggerStay(Collider other)
+    {
+        if (Input.GetKeyDown("s") || Input.GetKeyDown("down"))
+        {
+            movement = 1;
+            Debug.Log("Coz no serv says: Good i'm moving backwards");
+        }
+        if (other.tag == "Wall" )
+        {
+            movement = 0;
+            Debug.Log("Coz no serv says: Still in the wall");
+        }
     }
 }
