@@ -11,6 +11,7 @@ public class cozmo_move_WO_serv : MonoBehaviour
     float movement;
     bool isMovable = true;
     bool noAction = true;
+    bool noWall = true;
 
     public CharacterController controller;
     Vector3 moveDirection;
@@ -32,17 +33,23 @@ public class cozmo_move_WO_serv : MonoBehaviour
          */
 
         //make is moveable bool for W and S keys
-        if ((Input.GetKeyDown("w") || Input.GetKeyDown("up")) && noAction)
+        if ((Input.GetKeyDown("w") || Input.GetKeyDown("up")) && noAction && noWall)
         {
-            Debug.Log("I'm moving Forward");
-            movement = 1;
-            noAction = false;
+            if (isMovable)
+            {
+                Debug.Log("I'm moving Forward");
+                movement = 1;
+                noAction = false;
+            }
         }
-        if ((Input.GetKeyDown("s") || Input.GetKeyDown("down")) && noAction)
+        if ((Input.GetKeyDown("s") || Input.GetKeyDown("down")) && noAction && noWall)
         {
-            Debug.Log("I'm moving Backwards");
-            movement = -1;
-            noAction = false;
+            if (isMovable)
+            {
+                Debug.Log("I'm moving Backwards");
+                movement = -1;
+                noAction = false;
+            }
         }
         if (Input.GetKeyUp("w") || Input.GetKeyUp("up"))
         {
@@ -64,7 +71,7 @@ public class cozmo_move_WO_serv : MonoBehaviour
         }
 
         //Movement options for Left and Right Turning
-        if ((Input.GetKeyDown("a") || Input.GetKeyDown("left")) && noAction)
+        if ((Input.GetKeyDown("a") || Input.GetKeyDown("left")) && noAction && noWall)
         {
             if (isMovable)
             {
@@ -75,7 +82,7 @@ public class cozmo_move_WO_serv : MonoBehaviour
                 StartCoroutine(Wait());
             }
         }
-        if ((Input.GetKeyDown("d") || Input.GetKeyDown("right")) && noAction)
+        if ((Input.GetKeyDown("d") || Input.GetKeyDown("right")) && noAction && noWall)
         {
             if (isMovable)
             {
@@ -86,17 +93,19 @@ public class cozmo_move_WO_serv : MonoBehaviour
                 StartCoroutine(Wait());
             }
         }
-        //CheckMove(2);
+        CheckMove(2);
         moveDirection = (transform.forward * movement);
         moveDirection = moveDirection.normalized * speed;
 
         controller.Move(moveDirection * Time.deltaTime);
     }
-    /* public void CheckMove(int moveNum)
+     public void CheckMove(int moveNum)
      {
-         if (moveNum == 2) return;
-         else movement = moveNum;
-     }*/
+        if (moveNum == 2) return;
+        if (moveNum == 3) noWall = false;
+        if (moveNum == 4) Wait();
+        else movement = moveNum;
+     }
 
     
 
@@ -106,6 +115,7 @@ public class cozmo_move_WO_serv : MonoBehaviour
         yield return new WaitForSeconds(turnTime);
         Debug.Log("you can move now");
         isMovable = true;
+        
     }
     private IEnumerator Wait()
     {
@@ -113,6 +123,7 @@ public class cozmo_move_WO_serv : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
         Debug.Log("you have waited " + waitTime+ " seconds no movement detected");
         noAction = true;
+        noWall = true;
     }
     void OnTriggerEnter(Collider other)
     {

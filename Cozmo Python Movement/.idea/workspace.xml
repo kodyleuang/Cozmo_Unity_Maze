@@ -2,32 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79691c5f-02e6-48ee-9536-f908b0562953" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/flask.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Prefabs/Inner Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Prefabs/Inner Wall.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scenes/MainScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/NetworkConnection.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/NetworkConnection.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/WallStop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/WallStop.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/cozmo_move_WO_serv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/cozmo_move_WO_serv.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/InspectorExpandedItems.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/Hierarchy/21e35a-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/Hierarchy/21e35a-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/SceneView/f7526e-87df299f9515ae34ea.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/SceneView/f7526e-87df299f9515ae34ea.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/SceneView/f7526e-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/SceneView/f7526e-mainStage.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/assetDatabase3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/41/41395d91e6d38fe4ab2ca0d2b6a05c99" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/41/41395d91e6d38fe4ab2ca0d2b6a05c99" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/5f/5f15d2fa6203ca841ad8773e6e576cdf" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/5f/5f15d2fa6203ca841ad8773e6e576cdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/87/87df299f9515ae34eaf3b4ad83b980d5" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/87/87df299f9515ae34eaf3b4ad83b980d5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/87/87df299f9515ae34eaf3b4ad83b980d5.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/87/87df299f9515ae34eaf3b4ad83b980d5.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/b0/b089d55932c472f4c9ebe24bf2f91b67" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/b0/b089d55932c472f4c9ebe24bf2f91b67" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/e2/e24d9e6fcd8f8f54598d9011ef997c36" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/e2/e24d9e6fcd8f8f54598d9011ef997c36" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cozmo_Movement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cozmo_Movement.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cozmo_Movement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+            <state relative-caret-position="479">
+              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -262,16 +256,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Movement 2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Movement 2.py" />
     <entry file="file://$PROJECT_DIR$/Movement2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1210">
@@ -301,8 +286,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cozmo_Movement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="49" column="39" lean-forward="true" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
+        <state relative-caret-position="479">
+          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
         </state>
       </provider>
     </entry>

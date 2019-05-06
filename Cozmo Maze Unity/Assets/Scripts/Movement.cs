@@ -106,7 +106,7 @@ public class Movement : MonoBehaviour
     {
         if (moveNum == 2) return;
         if (moveNum == 3) noWall = false;
-        if (moveNum == 4) noWall = true;
+        if (moveNum == 4) Wait();
         else
         {
             movement = moveNum;
@@ -126,6 +126,7 @@ public class Movement : MonoBehaviour
         yield return new WaitForSeconds(waitTime);
         Debug.Log("you have waited " + waitTime + " seconds no movement detected");
         noAction = true;
+        noWall = true;
     }
     /*// Collision detection for Cozmo
     void OnTriggerEnter(Collider other)

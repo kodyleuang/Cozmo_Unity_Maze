@@ -54,9 +54,9 @@ def cozmo_program(robot: cozmo.robot.Robot):
                 # next, we will want to move forward or backward, if the x distance is not 0
                 # first, just move if 'F' and move backwards for 'B'
                 if instructions[1] == 'F':
-                    robot.drive_wheels(100, 100, 0, 0)
+                    robot.drive_wheels(82, 82, 0, 0)
                 elif instructions[1] == 'B':
-                    robot.drive_wheels(-100, -100, 0, 0)
+                    robot.drive_wheels(-82, -82, 0, 0)
 
             # We want to turn left or right
             if instructions[0] in turning:

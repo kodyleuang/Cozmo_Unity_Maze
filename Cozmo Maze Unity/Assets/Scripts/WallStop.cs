@@ -29,7 +29,8 @@ public class WallStop : MonoBehaviour
             mov.CheckMove(0);
             mov.CheckMove(3);
             //movWO.CheckMove(0);
-            //coz.CheckMove(0);
+            coz.CheckMove(0);
+            coz.CheckMove(3);
             net.Send("stop");
             Debug.Log("WallStop says: i sent stop in front");
         }
@@ -43,7 +44,7 @@ public class WallStop : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-       /* if (other.tag == "Player_Front")
+        if (other.tag == "Player_Front")
         {
             mov.CheckMove(0);
             if (Input.GetKeyDown("s"))
@@ -51,14 +52,17 @@ public class WallStop : MonoBehaviour
                 Debug.Log("your moving back");
                 mov.CheckMove(4);
                 mov.CheckMove(-1);
+                coz.CheckMove(4);
+                coz.CheckMove(-1);
             }
             if (Input.GetKeyDown("w"))
             {
                 Debug.Log("forward movement not allowed");
                 mov.CheckMove(3);
+                coz.CheckMove(3);
             }
         }
-        /*if (other.tag == "Player_Back")
+        if (other.tag == "Player_Back")
         {
             mov.CheckMove(0);
             if (Input.GetKeyDown("w"))
@@ -66,13 +70,16 @@ public class WallStop : MonoBehaviour
                 Debug.Log("your moving forward");
                 mov.CheckMove(4);
                 mov.CheckMove(1);
+                coz.CheckMove(4);
+                coz.CheckMove(1);
             }
             if (Input.GetKeyDown("s"))
             {
                 Debug.Log("backward movement not allowed");
                 mov.CheckMove(3);
+                coz.CheckMove(3);
             }
-        }*/
+        }
     }
 
 }
