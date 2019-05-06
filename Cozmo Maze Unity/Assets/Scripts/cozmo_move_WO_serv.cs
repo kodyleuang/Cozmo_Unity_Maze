@@ -122,7 +122,7 @@ public class cozmo_move_WO_serv : MonoBehaviour
             Debug.Log("Coz no serv says: Wall hit i stop");
         }
     }
-    private void OnTriggerStay(Collider other)
+   /* private void OnTriggerStay(Collider other)
     {
         if (Input.GetKeyDown("s") || Input.GetKeyDown("down"))
         {
@@ -134,5 +134,5 @@ public class cozmo_move_WO_serv : MonoBehaviour
             movement = 0;
             Debug.Log("Coz no serv says: Still in the wall");
         }
-    }
+    }*/
 }

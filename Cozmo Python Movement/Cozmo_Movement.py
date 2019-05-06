@@ -2,7 +2,6 @@
 # Cozmo Movement is based off a list in the form of [Name;FB;LR;distX;distY]
 # Corresponding with [Name, Forward/Backward; Left/Right; Distance X; Distance Y]
 
-#robot.stop_all_motors()
 
 import cozmo
 import socket
@@ -29,9 +28,11 @@ def cozmo_program(robot: cozmo.robot.Robot):
 
     robot.say_text("ready").wait_for_completed()
 
+
     # SET COZMO's NAME
     movement = {'w', 's'}
     turning = {'a', 'd'}
+
     while cont:
         bytedata = s.recv(4048)
         # data = str(bytedata)
@@ -47,18 +48,15 @@ def cozmo_program(robot: cozmo.robot.Robot):
             # check the name to Stop movement, move forward or back, or turn R/L:
             if instructions[0] == "stop":
                 robot.stop_all_motors()
-                print("i was supposed to stop")
             if instructions[0] in movement:
                 # we know that this is a message involving movement
-                instructions[2] = int(instructions[2])
+
                 # next, we will want to move forward or backward, if the x distance is not 0
                 # first, just move if 'F' and move backwards for 'B'
-                if instructions[2] != 0:
-                    distX = instructions[2]
-                    if instructions[1] == 'F':
-                        robot.drive_straight(distance_mm(distX), speed_mmps(150))
-                    elif instructions[1] == 'B':
-                        robot.drive_straight(distance_mm(distX), speed_mmps(150))
+                if instructions[1] == 'F':
+                    robot.drive_wheels(100, 100, 0, 0)
+                elif instructions[1] == 'B':
+                    robot.drive_wheels(-100, -100, 0, 0)
 
             # We want to turn left or right
             if instructions[0] in turning:

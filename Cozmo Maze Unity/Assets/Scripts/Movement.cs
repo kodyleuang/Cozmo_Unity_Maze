@@ -11,6 +11,7 @@ public class Movement : MonoBehaviour
     float movement;
     bool isMovable = true;
     bool noAction = true;
+    bool noWall = true;
 
     public CharacterController controller;
     Vector3 moveDirection;
@@ -34,17 +35,19 @@ public class Movement : MonoBehaviour
          */
 
         //make is moveable bool for W and S keys
-        if ((Input.GetKeyDown("w") || Input.GetKeyDown("up")) && noAction)
+        if ((Input.GetKeyDown("w") || Input.GetKeyDown("up")) && noAction && noWall)
         {
+            Debug.Log("straight move");
             movement = 1;
-            net.Send("w;F;5000");
+            net.Send("w;F");
             noAction = false;
 
         }
-        if ((Input.GetKeyDown("s") || Input.GetKeyDown("down")) && noAction)
+        if ((Input.GetKeyDown("s") || Input.GetKeyDown("down")) && noAction && noWall)
         {
+            Debug.Log("back move");
             movement = -1;
-            net.Send("s;F;-5000");
+            net.Send("s;B");
             noAction = false;
         }
         if (Input.GetKeyUp("w") || Input.GetKeyUp("up"))
@@ -99,11 +102,17 @@ public class Movement : MonoBehaviour
 
         controller.Move(moveDirection * Time.deltaTime);
     }
-    /*public void CheckMove(int moveNum)
+    public void CheckMove(int moveNum)
     {
         if (moveNum == 2) return;
-        else movement = moveNum;
-    }*/
+        if (moveNum == 3) noWall = false;
+        if (moveNum == 4) noWall = true;
+        else
+        {
+            movement = moveNum;
+        }
+
+    }
     private IEnumerator TurnWait()
     {
         isMovable = false;
@@ -118,6 +127,7 @@ public class Movement : MonoBehaviour
         Debug.Log("you have waited " + waitTime + " seconds no movement detected");
         noAction = true;
     }
+    /*// Collision detection for Cozmo
     void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Wall")
@@ -126,5 +136,5 @@ public class Movement : MonoBehaviour
             net.Send("stop");
             Debug.Log("Movement script says: Wall hit i stop to server");
         }
-    }
+    }*/
 }

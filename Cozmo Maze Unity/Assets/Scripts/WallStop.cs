@@ -13,7 +13,7 @@ public class WallStop : MonoBehaviour
     {
         mov = GameObject.FindWithTag("Player").GetComponent<Movement>();
         coz = GameObject.FindWithTag("Player").GetComponent<cozmo_move_WO_serv>();
-        net = GetComponent<NetworkConnection>();
+        net = GameObject.FindWithTag("NetScript").GetComponent<NetworkConnection>();
         movWO = GameObject.FindWithTag("Player").GetComponent<Move_WO_server>();
     }
 
@@ -24,14 +24,55 @@ public class WallStop : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player_Front")
         {
-           // mov.CheckMove(0);
+            mov.CheckMove(0);
+            mov.CheckMove(3);
             //movWO.CheckMove(0);
             //coz.CheckMove(0);
-           // net.Send("stop");
-            Debug.Log("WallStop says: i sent stop");
+            net.Send("stop");
+            Debug.Log("WallStop says: i sent stop in front");
+        }
+        else if (other.tag == "Player_Back")
+        {
+            mov.CheckMove(0);
+            mov.CheckMove(3);
+            net.Send("stop");
+            Debug.Log("WallStop says: i sent stop for back");
         }
     }
-    
+    private void OnTriggerStay(Collider other)
+    {
+       /* if (other.tag == "Player_Front")
+        {
+            mov.CheckMove(0);
+            if (Input.GetKeyDown("s"))
+            {
+                Debug.Log("your moving back");
+                mov.CheckMove(4);
+                mov.CheckMove(-1);
+            }
+            if (Input.GetKeyDown("w"))
+            {
+                Debug.Log("forward movement not allowed");
+                mov.CheckMove(3);
+            }
+        }
+        /*if (other.tag == "Player_Back")
+        {
+            mov.CheckMove(0);
+            if (Input.GetKeyDown("w"))
+            {
+                Debug.Log("your moving forward");
+                mov.CheckMove(4);
+                mov.CheckMove(1);
+            }
+            if (Input.GetKeyDown("s"))
+            {
+                Debug.Log("backward movement not allowed");
+                mov.CheckMove(3);
+            }
+        }*/
+    }
+
 }

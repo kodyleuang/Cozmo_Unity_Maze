@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Wall
+  - NetScript
+  - Player_Front
+  - Player_Back
   layers:
   - Default
   - TransparentFX
