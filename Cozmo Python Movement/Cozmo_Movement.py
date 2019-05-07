@@ -29,7 +29,7 @@ def cozmo_program(robot: cozmo.robot.Robot):
     robot.say_text("ready").wait_for_completed()
 
 
-    # SET COZMO's NAME
+    # keys cozmo responds to
     movement = {'w', 's'}
     turning = {'a', 'd'}
 
@@ -49,10 +49,7 @@ def cozmo_program(robot: cozmo.robot.Robot):
             if instructions[0] == "stop":
                 robot.stop_all_motors()
             if instructions[0] in movement:
-                # we know that this is a message involving movement
-
-                # next, we will want to move forward or backward, if the x distance is not 0
-                # first, just move if 'F' and move backwards for 'B'
+                # Movement is based on F forwards or B backwards and the speed at which both wheels move
                 if instructions[1] == 'F':
                     robot.drive_wheels(82, 82, 0, 0)
                 elif instructions[1] == 'B':

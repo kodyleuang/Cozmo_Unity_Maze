@@ -37,7 +37,6 @@ public class Movement : MonoBehaviour
         //make is moveable bool for W and S keys
         if ((Input.GetKeyDown("w") || Input.GetKeyDown("up")) && noAction && noWall)
         {
-            Debug.Log("straight move");
             movement = 1;
             net.Send("w;F");
             noAction = false;
@@ -45,7 +44,6 @@ public class Movement : MonoBehaviour
         }
         if ((Input.GetKeyDown("s") || Input.GetKeyDown("down")) && noAction && noWall)
         {
-            Debug.Log("back move");
             movement = -1;
             net.Send("s;B");
             noAction = false;
@@ -96,7 +94,7 @@ public class Movement : MonoBehaviour
             }
         }
         // Movement of player done Here, as well as collision
-       // CheckMove(2);
+        CheckMove(2);
         moveDirection = (transform.forward * movement);
         moveDirection = moveDirection.normalized * speed;
 
@@ -107,10 +105,7 @@ public class Movement : MonoBehaviour
         if (moveNum == 2) return;
         if (moveNum == 3) noWall = false;
         if (moveNum == 4) Wait();
-        else
-        {
-            movement = moveNum;
-        }
+        else movement = moveNum;
 
     }
     private IEnumerator TurnWait()
@@ -128,14 +123,4 @@ public class Movement : MonoBehaviour
         noAction = true;
         noWall = true;
     }
-    /*// Collision detection for Cozmo
-    void OnTriggerEnter(Collider other)
-    {
-        if (other.tag == "Wall")
-        {
-            movement = 0;
-            net.Send("stop");
-            Debug.Log("Movement script says: Wall hit i stop to server");
-        }
-    }*/
 }

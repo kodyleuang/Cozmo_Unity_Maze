@@ -31,6 +31,5 @@ public class NetworkConnection : MonoBehaviour
         soc.Connect(remoteEP);
         byte[] byData = System.Text.Encoding.ASCII.GetBytes(x);
         soc.Send(byData);
-        Debug.Log(x + " Has been sent to python from network Connect");
     }
 }

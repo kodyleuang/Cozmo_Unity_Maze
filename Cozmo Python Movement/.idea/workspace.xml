@@ -2,27 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79691c5f-02e6-48ee-9536-f908b0562953" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/.vs/Cozmo Maze Unity/v15/Server/sqlite3/storage.ide-wal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Prefabs/Inner Wall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Prefabs/Inner Wall.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scenes/MainScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scenes/MainScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/Movement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/WallStop.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/WallStop.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/cozmo_move_WO_serv.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scripts/cozmo_move_WO_serv.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/Hierarchy/21e35a-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/Hierarchy/21e35a-mainStage.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/SceneView/f7526e-87df299f9515ae34ea.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/SceneView/f7526e-87df299f9515ae34ea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/SceneView/f7526e-mainStage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/StateCache/SceneView/f7526e-mainStage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.CollabProxy.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/assetDatabase3" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/assetDatabase3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/41/41395d91e6d38fe4ab2ca0d2b6a05c99" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/41/41395d91e6d38fe4ab2ca0d2b6a05c99" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/87/87df299f9515ae34eaf3b4ad83b980d5" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/87/87df299f9515ae34eaf3b4ad83b980d5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/87/87df299f9515ae34eaf3b4ad83b980d5.info" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/87/87df299f9515ae34eaf3b4ad83b980d5.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/b0/b089d55932c472f4c9ebe24bf2f91b67" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/b0/b089d55932c472f4c9ebe24bf2f91b67" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/e2/e24d9e6fcd8f8f54598d9011ef997c36" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/e2/e24d9e6fcd8f8f54598d9011ef997c36" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/86/864246d8e7c090b42a6b0a52d50d64f1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Cozmo Maze Unity/Library/metadata/86/864246d8e7c090b42a6b0a52d50d64f1.info" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Cozmo_Movement.py" beforeDir="false" afterPath="$PROJECT_DIR$/Cozmo_Movement.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Movement2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flask.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Documentation.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Planning and Idea.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +36,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cozmo_Movement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+            <state relative-caret-position="189">
+              <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -84,7 +85,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -96,6 +96,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -226,10 +227,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13277134" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13238771" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -257,37 +258,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Movement 2.py" />
-    <entry file="file://$PROJECT_DIR$/Movement2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="55" column="7" selection-start-line="55" selection-start-column="7" selection-end-line="55" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../cozmo_sdk_examples_1.4.5/apps/remote_control_cozmo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="165" lean-forward="true" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flask.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="404" column="31" selection-start-line="404" selection-start-column="19" selection-end-line="404" selection-end-column="31" />
-          <folding>
-            <element signature="e#774#788#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Movement2.py" />
+    <entry file="file://$PROJECT_DIR$/../../cozmo_sdk_examples_1.4.5/apps/remote_control_cozmo.py" />
+    <entry file="file://$PROJECT_DIR$/flask.py" />
     <entry file="file://$PROJECT_DIR$/Cozmo_Movement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+        <state relative-caret-position="189">
+          <caret line="31" column="28" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
         </state>
       </provider>
     </entry>

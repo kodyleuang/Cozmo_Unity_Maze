@@ -5,7 +5,6 @@ using UnityEngine;
 public class WallStop : MonoBehaviour
 {
     Movement mov;
-    Move_WO_server movWO;
     NetworkConnection net;
     cozmo_move_WO_serv coz;
     // Start is called before the first frame update
@@ -14,7 +13,6 @@ public class WallStop : MonoBehaviour
         mov = GameObject.FindWithTag("Player").GetComponent<Movement>();
         coz = GameObject.FindWithTag("Player").GetComponent<cozmo_move_WO_serv>();
         net = GameObject.FindWithTag("NetScript").GetComponent<NetworkConnection>();
-        movWO = GameObject.FindWithTag("Player").GetComponent<Move_WO_server>();
     }
 
     // Update is called once per frame
@@ -28,7 +26,6 @@ public class WallStop : MonoBehaviour
         {
             mov.CheckMove(0);
             mov.CheckMove(3);
-            //movWO.CheckMove(0);
             coz.CheckMove(0);
             coz.CheckMove(3);
             net.Send("stop");
@@ -42,6 +39,8 @@ public class WallStop : MonoBehaviour
             Debug.Log("WallStop says: i sent stop for back");
         }
     }
+    /* if the player is moving still colliding with the wall the only option
+      is to back up or move forward*/
     private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Player_Front")
