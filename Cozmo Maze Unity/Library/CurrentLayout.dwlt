@@ -15,7 +15,7 @@ MonoBehaviour:
   m_PixelRect:
     serializedVersion: 2
     x: 0
-    y: 51
+    y: 43
     width: 1920
     height: 997
   m_ShowMode: 4
@@ -110,10 +110,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 498}
-  m_MaxSize: {x: 18008, y: 14048}
+  m_MinSize: {x: 681, y: 498}
+  m_MaxSize: {x: 18004, y: 14048}
   vertical: 1
-  controlID: 153
+  controlID: 54
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -135,10 +135,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 683, y: 498}
-  m_MaxSize: {x: 18008, y: 14048}
+  m_MinSize: {x: 681, y: 498}
+  m_MaxSize: {x: 18004, y: 14048}
   vertical: 0
-  controlID: 154
+  controlID: 55
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -160,8 +160,8 @@ MonoBehaviour:
     y: 0
     width: 1562
     height: 947
-  m_MinSize: {x: 406, y: 498}
-  m_MaxSize: {x: 14006, y: 14048}
+  m_MinSize: {x: 404, y: 498}
+  m_MaxSize: {x: 14002, y: 14048}
   vertical: 1
   controlID: 56
 --- !u!114 &8
@@ -185,8 +185,8 @@ MonoBehaviour:
     y: 0
     width: 1562
     height: 673
-  m_MinSize: {x: 406, y: 224}
-  m_MaxSize: {x: 8006, y: 4024}
+  m_MinSize: {x: 404, y: 224}
+  m_MaxSize: {x: 8004, y: 4024}
   vertical: 0
   controlID: 57
 --- !u!114 &9
@@ -264,10 +264,10 @@ MonoBehaviour:
     y: 673
     width: 1562
     height: 274
-  m_MinSize: {x: 336, y: 274}
-  m_MaxSize: {x: 14006, y: 10024}
+  m_MinSize: {x: 332, y: 274}
+  m_MaxSize: {x: 14002, y: 10024}
   vertical: 0
-  controlID: 15
+  controlID: 104
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -368,7 +368,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 356
-    y: 81
+    y: 73
     width: 1202
     height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -448,15 +448,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 81
+    y: 73
     width: 354
     height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ba050000
-      m_LastClickedID: 0
+      m_SelectedIDs: baedffff
+      m_LastClickedID: -4678
       m_ExpandedIDs: 9af6ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -502,7 +502,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 356
-    y: 81
+    y: 73
     width: 1202
     height: 653
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -512,9 +512,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -72.99444, y: -8.152238, z: -148.69493}
+    m_Target: {x: 7.580626, y: 18.56482, z: -101.22258}
     speed: 2
-    m_Value: {x: -72.99444, y: -8.152238, z: -148.69493}
+    m_Value: {x: 7.580626, y: 18.56482, z: -101.22258}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -542,13 +542,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.06846915, y: -0.6801576, z: 0.064053535, w: -0.72704524}
+    m_Target: {x: -0.68728876, y: -0.063323304, z: 0.060354516, w: -0.7210975}
     speed: 2
-    m_Value: {x: -0.06846915, y: -0.6801576, z: 0.064053535, w: -0.72704524}
+    m_Value: {x: -0.68728876, y: -0.063323304, z: 0.060354516, w: -0.7210975}
   m_Size:
-    m_Target: 69.213394
+    m_Target: 242.13858
     speed: 2
-    m_Value: 69.213394
+    m_Value: 242.13858
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -608,7 +608,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 754
+    y: 746
     width: 827
     height: 254
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -624,21 +624,21 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: X:\COLLEGE\3. Senior Year\2nd Semester\Cozmo\Final Project\Cozmo_Unity_Maze\Cozmo
+  m_LastProjectPath: C:\Users\Kody Leuang\Desktop\COLLEGE\Senior Year\2nd Semester\Cozmo\Cozmo_Unity_Maze\Cozmo
     Maze Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: e62e0000
-    m_LastClickedID: 12006
-    m_ExpandedIDs: 00000000742d00008e2e000000ca9a3b
+    m_SelectedIDs: 6a2d0000
+    m_LastClickedID: 11626
+    m_ExpandedIDs: 000000006a2d0000842e000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -666,7 +666,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000742d00008e2e0000
+    m_ExpandedIDs: 000000006a2d0000842e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -693,7 +693,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c623000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -743,7 +743,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 829
-    y: 754
+    y: 746
     width: 729
     height: 254
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1562
-    y: 81
+    y: 73
     width: 356
     height: 927
   m_PersistentViewDataDictionary: {fileID: 0}

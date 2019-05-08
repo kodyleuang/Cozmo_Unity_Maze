@@ -60,7 +60,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Collision.cs" />
     <Compile Include="Assets\Scripts\cozmo_move_WO_serv.cs" />
     <Compile Include="Assets\Scripts\Move_WO_server.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
